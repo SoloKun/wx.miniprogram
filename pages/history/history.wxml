@@ -1,0 +1,7 @@
+<!--pages/history/history.wxml-->
+
+<view class=".content">
+  <block wx:for="{{exp}}" wx:key="key">
+    <view class=".item">{{item}}</view>
+  </block>
+</view>

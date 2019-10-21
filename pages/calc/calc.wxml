@@ -1,0 +1,52 @@
+<!--pages/calc/calc.wxml-->
+<view class=".pages">
+  <view class=".input">
+    <input value='{{result}}' disabled/>
+  </view>
+
+  <view class=".history">
+    <switch checked="{{record}}" bindchange="recordhistory">保存历史记录</switch>
+    <button class=".button1" id="{{id20}}" bindtap="click">
+      <icon type='waiting_circle' class="icon" size="75"> </icon>
+    </button>
+    <button class=".button1" bindtap="clear">
+      <icon type='cancel' class="icon" size="75"> </icon>
+    </button>
+  </view>
+
+  <view class=".group">
+    <button class=".button1" id="{{id10}}" bindtap="click">AC</button>
+    <button class=".button1" id="{{id11}}" bindtap="click">←</button>
+    <button class=".button3" id="{{id12}}" bindtap="click">％</button>
+    <button class=".button3" id="{{id13}}" bindtap="click">÷</button>
+  </view>
+  <view class=".group">
+    <button class=".button2" id="{{id7}}" bindtap="click">7</button>
+    <button class=".button2" id="{{id8}}" bindtap="click">8</button>
+    <button class=".button2" id="{{id9}}" bindtap="click">9</button>
+    <button class=".button3" id="{{id14}}" bindtap="click">*</button>
+  </view>
+
+  <view class=".group">
+    <button class=".button2" id="{{id4}}" bindtap="click">4</button>
+    <button class=".button2" id="{{id5}}" bindtap="click">5</button>
+    <button class=".button2" id="{{id6}}" bindtap="click">6</button>
+    <button class=".button3" id="{{id15}}" bindtap="click">-</button>
+  </view>
+
+  <view class=".group">
+    <button class=".button2" id="{{id1}}" bindtap="click">1</button>
+    <button class=".button2" id="{{id2}}" bindtap="click">2</button>
+    <button class=".button2" id="{{id3}}" bindtap="click">3</button>
+    <button class=".button3" id="{{id16}}" bindtap="click">+</button>
+  </view>
+
+  <view class=".group">
+    <button class=".button3" id="{{id17}}" bindtap="click">±</button>
+    <button class=".button2" id="{{id0}}" bindtap="click">0</button>
+    <button class=".button2" id="{{id18}}" bindtap="click">.</button>
+    <button class=".button3" id="{{id19}}" bindtap="click">=</button>
+  </view>
+
+
+</view>

@@ -1,0 +1,121 @@
+/* pages/calc/calc.wxss */
+
+.pages {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 10rpx;
+}
+
+.input {
+  text-align: right;
+  width: 100%;
+  line-height: 260rpx;
+  padding: 0 10rpx;
+  font-weight: bold;
+  font-size: 70px;
+  box-sizing: border-box;
+  border-top: 1px solid #fff;
+}
+
+.button1 {
+  width: 160rpx;
+  margin: 10rpx;
+  text-align: center;
+  line-height: 150rpx;
+  border-radius: 6px;
+  background-color: #008cba;
+}
+
+.button2 {
+  width: 160rpx;
+  margin: 10rpx;
+  text-align: center;
+  line-height: 150rpx;
+  border-radius: 6px;
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.button3 {
+  width: 160rpx;
+  margin: 10rpx;
+  text-align: center;
+  line-height: 150rpx;
+  border-radius: 6px;
+  background-color: #fedd71;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5px;
+  background-color: #fffff0;
+  margin: 1.5rpx;
+  font-size: 25px;
+}
+
+.pages {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 10rpx;
+}
+
+.input {
+  padding: 40px;
+  background-color: #fffff0;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.button1 {
+  width: 160rpx;
+  margin: 10rpx;
+  text-align: center;
+  line-height: 150rpx;
+  border-radius: 6px;
+  background-color: #008cba;
+}
+
+.button2 {
+  width: 160rpx;
+  margin: 10rpx;
+  text-align: center;
+  line-height: 150rpx;
+  border-radius: 6px;
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.button3 {
+  width: 160rpx;
+  margin: 10rpx;
+  text-align: center;
+  line-height: 150rpx;
+  border-radius: 6px;
+  background-color: #fedd71;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5px;
+  background-color: #fffff0;
+  margin: 1.5rpx;
+  font-size: 25px;
+}
+
+.history {
+  width: 640rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
